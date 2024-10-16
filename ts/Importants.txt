@@ -1,0 +1,37 @@
+1 ) Définir une interface nommée Vehicle :
+
+    L'interface Vehicle doit contenir :
+        Une propriété make (marque) de type string.
+        Une propriété model (modèle) de type string.
+        Une propriété year (année) de type number.
+        Une méthode start() qui ne retourne rien (void) et affiche "Engine started" dans la console.
+        
+*********************************************************************************
+
+2) Créer une classe Car qui implémente l'interface Vehicle :
+
+    La classe Car doit avoir un constructeur pour initialiser les propriétés make, model, et year.
+    Elle doit également implémenter la méthode start() pour afficher "Car engine started" dans la console.
+    
+*********************************************************************************
+
+3) Créer une instance de la classe Car :
+
+    Il faut créer un objet de type Car avec des valeurs spécifiques pour les propriétés make, model, et year.
+    
+*********************************************************************************
+
+4) Appeler la méthode start() :
+
+    Une fois l'objet créé, vous appellerez la méthode start() pour vérifier si elle affiche bien "Car engine started" dans la console.
+    
+*********************************************************************************
+
+5) Compiler et exécuter le code :
+
+    Compiler le code TypeScript en JavaScript avec tsc et l'exécuter pour vérifier que tout fonctionne. 
+    
+    tsc car.ts
+    node car.js
+
+
